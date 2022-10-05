@@ -1,0 +1,4 @@
+Array is a contiguous memory.
+Advantages:
+    i) cache friendliness
+    ii) random access

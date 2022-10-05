@@ -1,0 +1,8 @@
+Advantages of vector:
+  > Dynamic size
+  > Rich library function (find, erase, insert, etc)
+  > Easy to know size
+  > No need to pass size
+  > Can be returned from a function
+  > By default initialised with default values
+  > We can copy a vector to other

@@ -1,0 +1,9 @@
+1. Fixed sized arrays
+   i. Stack allocated
+      int a[100]
+      int a[n]
+      int a[]={10,20,30,40,50}
+  ii. Heap allocated
+      int * a = new int[n]
+2. Dynamic sized arrays (they double their automatically)
+    i. Vectors
