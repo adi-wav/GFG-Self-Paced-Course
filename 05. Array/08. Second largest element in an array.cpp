@@ -32,7 +32,7 @@ int secondLargest(int a[], int n){
             largest=i;
         }
         else if(a[i]!=a[largest]){
-            if(res==-1 || a[i]>a[largest])
+            if(res==-1 || a[i]>a[res])
                 res=i;
         }
     }

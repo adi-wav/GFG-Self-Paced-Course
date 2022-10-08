@@ -13,7 +13,7 @@ int main(){
     for(int i=0;i<n;i++){
         int curr=1;
         for(int j=i+1;j<n;j++){
-            if((a[j]%2==0 && a[j-1]!=0)||(a[j]%2!=0 && a[j-1]==0))
+            if((a[j]%2==0 && a[j-1]%2!=0)||(a[j]%2!=0 && a[j-1]%2==0))
                 curr++;
             else
                 break;
@@ -38,7 +38,7 @@ int main(){
     int res=1;
     for(int i=1;i<n;i++){
         int c=1;
-        if(a[i]%2!=a[i-1]){
+        if(a[i]%2!=a[i-1]%2){
             c++;
             res=max(res,c);
         }

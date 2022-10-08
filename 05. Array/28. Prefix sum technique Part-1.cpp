@@ -45,7 +45,7 @@ int main(){
 //Equilibrium point: An element in an array which has sum of all elements on its left is equal to sum of all element on its right.
 //Find if the array has an equilibrium point or not.
 //Approach 1(naive)
-//Time complexity: O(n)
+//Time complexity: O(n2)
 #include<iostream>
 using namespace std;
 

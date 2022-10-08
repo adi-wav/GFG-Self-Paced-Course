@@ -1,3 +1,4 @@
+//A binary array is given you have to flip the elements in groups to make all the elements same.
 //Time complexity: O(n)
 #include<iostream>
 using namespace std;
