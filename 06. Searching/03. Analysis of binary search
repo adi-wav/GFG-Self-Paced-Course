@@ -1,0 +1,2 @@
+For successful searches, time complexity: O(log n)
+but for unsuccessful searches, time complexity: theta(log n) Because in this case whole tree will be traversed from top to bottom.
