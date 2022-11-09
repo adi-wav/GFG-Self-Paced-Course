@@ -1,0 +1,5 @@
+Stable sorts: They keep the order of elements same as in the original array.
+    example: Bubble sort, Insertion sort, Merge sort
+
+Unstable sorts: They change the original order of elements as in the given array.
+    example: Selection sort, Quick sort, Heap sort

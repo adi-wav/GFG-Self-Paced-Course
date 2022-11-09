@@ -1,0 +1,3 @@
+Worst case and average case time complexity: O(nlogn)
+
+By default it takes IntroSort (hybrid of quick, heap and insertion sort)
