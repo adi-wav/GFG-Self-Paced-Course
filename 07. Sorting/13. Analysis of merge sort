@@ -1,0 +1,5 @@
+Time complexity : theta(n)*theta(log n) = theta(nlog n)
+Number of level = [log(2)n+1]
+Steps in every level = n
+
+Auxilliary space: theta(n)

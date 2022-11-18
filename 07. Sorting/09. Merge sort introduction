@@ -1,0 +1,6 @@
+1. Divide and conquer algorithm
+2. Stable algorithm
+3. Time complexity: O(nlogn) & Auxilliary space: O(n)
+4. Well suited for linked list. Works in O(1)
+5. Used in external sorting
+6. In general for arrays, Quicksort outperforms it
