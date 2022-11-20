@@ -1,0 +1,3 @@
+Nothing special
+You can select any element as pivot and swap it with first or last element according to your choice of lomuto or hoare.
+And time complexity is not affected by the choice.

@@ -1,0 +1,8 @@
+1. Divide and conquer algorithm
+2. Worst case time: O(n2)
+3. Despite O(n2) worst case, it is considered faster, because of the following:
+    a. In place
+    b. Cache friendly
+    c. Average case: O(nlogn)
+    d. Tail recursive
+4. Partition is key function(Naive, lomuto, hoare)
