@@ -1,0 +1,18 @@
+1. Binary array: Partition(Lomuto, hoare, naive)
+2. Array with three values: Partition(Lomuto, hoare, naive)
+3. Array of size n and small ranged values: Counting sort
+4. Array of size n and rainge is of size n2 or n3 or closer: Radix sort
+5. Array of uniformly distributed data over a range: Bucket sort
+6. When memory writes are costly: Selection sort or Cycle sort
+7. When adjacent swaps are allowed: Bubble sort
+8. When array size is small: Selection sort or Insertion sort(better)
+9. When available extra memory is less: Shall sort[O(n*(logn)2)]
+
+General purpose sorting algorithm:
+    merge sort (divide and conquer)
+    heap sort
+    quick sort(fastest) (divide and conquer)
+Hybrid algorithm:
+    Tim sort (Insertion + merge)
+    Intra sort (Insertion + heap + merge)
+
