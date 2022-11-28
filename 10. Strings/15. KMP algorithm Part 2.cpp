@@ -1,0 +1,1 @@
+//jali ko aag kehte hain, bujhi ko rakh kehte hain aur jo video bilkul smjh na aaye use kmp algo ka part 2 kehte hain

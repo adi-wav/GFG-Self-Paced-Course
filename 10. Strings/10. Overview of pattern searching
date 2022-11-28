@@ -1,0 +1,5 @@
+Naive soultion: O((n-m+1)*m)
+Naive when all characters of pattern are distinct: O(n)
+Rabin karp: O((n-m+1)*m) [but better than naive on average]
+KMP: O(n)
+Suffix Tree: O(m)

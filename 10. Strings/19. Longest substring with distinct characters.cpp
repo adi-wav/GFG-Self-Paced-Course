@@ -1,0 +1,1 @@
+//Kuch smjh ni aaya firse :'(

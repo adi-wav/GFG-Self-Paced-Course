@@ -1,0 +1,9 @@
+-> Richer library
+-> Supports operators like +, <, >, ==, <=, >= are possible
+-> Can assign a string later
+-> Can be converted to C-style if needed
+-> It has functions like str.length(), str.substr(1,3), str.find("abc")
+-> If we want to input a line with spaces then we have to use getline(cin,str) otherwise it will take only the first word
+-> Shortcut for traversal of string
+    for(char x:str)
+        cout<<x;
