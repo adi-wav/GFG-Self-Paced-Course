@@ -1,0 +1,3 @@
+Linked list like arrays store data in linear manner but unlike arrays it does not need contiguous location to store the data
+The idea is to drop the contiguous memory requirements so that insertions, deletions can efficiently happen at the middle also. 
+And no need to pre allocate the space(No extra nodes)

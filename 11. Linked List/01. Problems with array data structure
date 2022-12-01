@@ -1,0 +1,9 @@
+1. Either size is fixed or pre-allocated(in both fixed and variable sized arrays), OR the worst case insertion at the end is theta(n)
+2. Insertion in the middle(or beginning) is costly
+3. Deletion in the middle(or beginning) is costly
+4. Implementation of data structures like queue and dque is complex with arrays.
+
+Problems with Arrays:
+-> How to implement Round Robin Scheduling
+-> Given a sequence of items whenever we see an item x in the sequence, we need to replace it with 5 instances of another item y
+-> We have multiple sorted sequences and we need to merge them frequently
