@@ -3,7 +3,7 @@
 using namespace std;
 
 bool matching(char a, char b){
-    return ((a=='(' && b==')') || (a=='{' && b=='{') || (a=='[' && b==']'));
+    return ((a=='(' && b==')') || (a=='{' && b=='}') || (a=='[' && b==']'));
 }
 
 bool isBalanced(string str){
