@@ -1,0 +1,2 @@
+1. Fully parenthesise the expression according to the precedence and associativity.
+2. Convert the bracket from innermost to outermost.

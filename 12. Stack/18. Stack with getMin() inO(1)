@@ -1,0 +1,16 @@
+//Auxilliary space: O(n)
+// ms: main stack
+// as: auxilliary stack that stores the min value.
+push(x){
+    ms.push(x);
+    if(as.top()>=ms.top())
+        as.push(x);
+}
+pop(){
+    if(ms.top()==as.top())
+        as.pop();
+    ms.pop();
+}
+
+//Now to get the min value of stack
+// as.top() => min value of stack

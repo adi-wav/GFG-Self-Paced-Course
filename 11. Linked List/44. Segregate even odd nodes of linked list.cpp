@@ -28,7 +28,7 @@ Node* segregate(Node* head){
         else{
             if(oS==NULL){
                 oS=curr;
-                oE=oE;
+                oE=oS;
             }
             else{
                 oE->next=curr;

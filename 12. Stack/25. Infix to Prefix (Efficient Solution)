@@ -1,0 +1,17 @@
+//Time complexity: theta(n)
+1. Create an empty stack, st.
+2. Create an empty string, pre.
+3. Do following for every character x from right to left.
+4. If x is: 
+    a) Operand: Push it to pre.
+    b) Right parenthesis: Push it to st.
+    c) Left parenthesis: Pop from st until right parenthesis is found. Append the popped character to pre.
+    d) Operator: If st is empty, push x to st.
+                 Else compare with st top.
+                 i) Higher precedence(than st top): Push x to st.
+                 ii) Lower precedence: Pop st top and append the popped item to pre until a higher precedence operator is found(or st becomes empty). Push x to st.
+                 iii) Equal precedence: Use associativity.
+5. Pop everything from st and append to pre.
+6. Return reverse of prefix.
+
+//If associativity is left to right then operator on left is higher precedence.

@@ -1,0 +1,69 @@
+stack<int>s;
+//First Method(Assuming all positive values)
+int min,t;
+//min: first value
+void push(int x){
+    if(s.empty()){
+        min=t;
+        s.push(x);
+    }
+    else if(x<=min){
+        s.push(x-min);
+        min=x;
+    }
+    else{
+        s.push(x);
+    }
+}
+int peek(){
+    t=s.peek();
+    return (t<=0)?min:t;
+}
+int pop(){
+    t=s.pop();
+    if(t<=0){
+        res=min;
+        min=min-t;
+        return res;
+    }
+    else
+        return t;
+}
+
+
+//Second Method(Handles negative values)
+int min,t;
+//min: first value
+void push(int x){
+    if(s.empty()){
+        min=t;
+        s.push(x);
+    }
+    else if(x<=min){
+        s.push(2*x-min);
+        min=x;
+    }
+    else{
+        s.push(x);
+    }
+}
+int peek(){
+    t=s.peek();
+    return (t<=min)?min:t;
+}
+int pop(){
+    t=s.pop();
+    if(t<=min){
+        res=min;
+        min=2*min-t;
+        return res;
+    }
+    else
+        return t;
+}
+
+
+int main(){
+    
+    return 0;
+}

@@ -1,0 +1,9 @@
+1) Create an empty stack st.
+2) Traverse through every symbol x of given prefix(from right to left).
+    i) If x is an operand push to st.
+    ii) Else (x is an operator)
+        a) op1 = st.top(); st.pop();
+        b) op2 = st.top(); st.pop();
+        c) Compute op1 (x) op2 and push the result to st.
+3) Return st.top()
+(Traverse and when you hit an operator take the previous two operands and compute them and push back to stack.)

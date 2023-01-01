@@ -1,0 +1,5 @@
+-> Single resource and multiple consumers. (eg: ticket counter)
+-> Synchronization between fast and slow devices.
+-> In operating systems(FCFS, buffers for devices like keyboard)
+-> In computer networks(routers/switches and mail queues)
+-> Variations: Deque, Priority queue, doubly ended priority queue.

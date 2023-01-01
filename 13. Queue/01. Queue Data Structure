@@ -1,0 +1,8 @@
+It is FIFO: First In First Out
+Operations: 
+    enqueue(x): Adds element to the element to the end of queue.
+    dequeue(): Removes element from the front of queue
+    size(): Gives the size of queue
+    isEmpty(): Gives boolean answer
+    getFront(): Gives the first value added
+    getRear(): Gives the last value added

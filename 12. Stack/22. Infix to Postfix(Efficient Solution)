@@ -1,0 +1,15 @@
+//Time complexity: theta(n)
+//Precedence order: ^ > *,/ > +,- > (
+//Algorithm
+1. Create an empty stack, st.
+2. Do the following for every character x from left to right.
+3. If x is: 
+    a) Operand: Output it.
+    b) Left parenthesis: Push to st.
+    c) Right parenthesis: Pop from st until left parenthesis is found. Output the popped operators.
+    d) operators: If st is empty, push x to st.
+                  Else compare with st top.
+                  i) Higher precedence(than st top), push to st.
+                  ii) Lower precendence, pop st top and output until a lower precedence operator is found. Then push s to st.
+                  iii) Equal precedence, use associavity.
+4. Pop and output everything from st.

@@ -25,6 +25,9 @@ void printNthFromEnd(Node* head, int n){
 }
 
 //Method 2(Using two pointers)
+//1. move 'first' pointer n positions ahead
+//2. now put 'second' pointer at head
+//3. move both 'first' and 'second' pointer at same speed. when 'first' reaches null the 'second' pointer is at required position
 void printNthFromEnd(Node* head, int n){
     if(head==NULL)
         return;

@@ -1,0 +1,20 @@
+Operations:
+    insertFront
+    insertRear
+    deleteFront
+    deleteRear
+    getFront
+    getRear
+    size
+    empty
+
+Implementation:
+    Linked List: Using doubly linked List
+    Array: Using circular arrays
+
+Applications:
+    -> A deque can be used as both stack and queue.
+    -> Maintaining history of actions.
+    -> A steal process scheduling algorithm.
+    -> Implementing a Priority Queue with two types of priorities.
+    -> Maximum/minimum of all subarrays of size k in an array.

@@ -1,0 +1,13 @@
+Infix: x+y
+Prefix: +xy
+Postfix: xy+
+
+Advantages of Prefix and Postfix
+    Do not require parenthesis, precedence rules and associativity rules.
+    Can be evaluated by writing a program that traverses the given expression exactly once.
+
+Operator | Associativity   |    / \
+   ^     |  right to left  |     |
+  *,/    |  left to right  |     |
+  +,-    |  left to right  |  precedence(increases upwards)
+

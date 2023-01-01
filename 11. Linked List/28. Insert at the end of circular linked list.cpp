@@ -28,7 +28,7 @@ Node* insertEnd(Node* head, int x){
 }
 
 //Efficient approach 1
-////Take a tail pointer as argument in the function and then tail->next=temp; temp->next=head; that's it.
+//Take a tail pointer as argument in the function and then tail->next=temp; temp->next=head; that's it.
 
 //Efficient approach 2
 //here we are adding the node next to head then swapping the values of head and newly added node

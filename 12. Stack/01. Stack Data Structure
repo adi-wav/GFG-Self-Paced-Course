@@ -1,0 +1,9 @@
+Stack is linear data structure.
+Stack operations:
+    isEmpty()
+    push()
+    pop()
+    peek()
+    size()
+Underflow: when push or pop from empty stack
+Overflow: when push in a full stack
